@@ -22,7 +22,7 @@ resetTime() {
 
 # 生成一周中随机几天的数组
 generateRandomWeekdays() {
-    shuf -i 1-7 -n $(shuf -i 2-4 -n 1) # 随机选择2到4天
+    shuf -i 1-7 -n $(shuf -i 3-5 -n 1) # 随机选择2到4天
 }
 
 # 定义修改函数
